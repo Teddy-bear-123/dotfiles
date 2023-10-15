@@ -1,0 +1,6 @@
+set_from_resource $wm.binding.launcher.app wm.binding.launcher.app Shift+Ctrl
+set_from_resource $wm.program.launcher.app wm.program.launcher.app ilia -p apps
+bindsym $mod+$wm.binding.launcher.app exec --no-startup-id $wm.program.launcher.app -t $ilia.stylesheet
+
+
+bindsym $mod+slash exec "/usr/share/splatmoji/splatmoji copy"

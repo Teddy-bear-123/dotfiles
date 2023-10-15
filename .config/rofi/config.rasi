@@ -1,0 +1,12 @@
+configuration {
+  //hover-select: true; 
+  //modi: "drun,window,run";
+  //display-drun: "";
+  //display-run: "";
+  //display-window: "󰑣";
+  //show-icons: false;
+  //fixed-num-lines: false;
+  icon-theme: "Papirus-Dark";
+}
+
+@theme "sidebar"

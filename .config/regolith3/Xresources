@@ -1,0 +1,56 @@
+regolith.wallpaper.file: /usr/share/backgrounds/back1-fix.jpg
+
+
+wm.bar.mode: hide
+wm.bar.stripworkspacenumbers: no
+wm.bar.position: top
+wm.bar.background.color: #191724
+wm.bar.workspace.focused.border.color: #e0def4
+wm.client.focused.color.background: #2e2e2e
+wm.client.focused.color.border: #2e2e2e 
+wm.client.focused.color.indicator: #2e2e2e
+wm.client.focused.color.child_border: #2e2e2e
+wm.client.focused.color.text: #3b3b3b
+wm.client.focused_inactive.color.background: #151515
+wm.client.focused_inactive.color.border: #151515
+wm.client.focused_inactive.color.child_border: #151515
+wm.client.focused_inactive.color.indicator: #151515
+wm.client.focused_inactive.color.text: #5b5b5b
+wm.client.unfocused.color.background: #151515
+wm.client.unfocused.color.border: #151515	
+wm.client.unfocused.color.child_border: #151515	
+wm.client.unfocused.color.indicator: #151515
+wm.client.unfocused.color.text: #5b5b5b
+wm.client.urgent.color.background: #cf6a4c	
+wm.client.urgent.color.border: #cf6a4c
+wm.client.urgent.color.child_border: #cf6a4c
+wm.client.urgent.color.indicator: 	#cf6a4c
+wm.client.urgent.color.text: #151515
+wm.client.background: #3b3b3b
+
+wm.workspace.01.name: 1 
+wm.workspace.02.name: 2
+wm.workspace.03.name: 3
+wm.workspace.04.name: 4
+wm.workspace.05.name: 5
+wm.workspace.06.name: 6 
+wm.workspace.07.name: 7 
+wm.workspace.08.name: 8 
+wm.workspace.09.name: 9 
+wm.workspace.10.name: 10 
+wm.workspace.11.name: 11
+wm.workspace.12.name: 12 
+wm.workspace.13.name: 13 
+wm.workspace.14.name: 14 
+wm.workspace.15.name: 15 
+wm.workspace.16.name: 16 
+wm.workspace.17.name: 17 
+wm.workspace.18.name: 18 
+wm.workspace.19.name: 19 
+
+gtk.document_font_name:	Nunito Regular 12
+gtk.font_name:	Nunito Regular 12
+gtk.icon_theme_name:	Tela-circle-dracula
+gtk.theme_name: Ayu-Darker
+
+wm.program.lock: /usr/bin/gnome-screensaver

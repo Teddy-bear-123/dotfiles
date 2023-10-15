@@ -1,0 +1,9 @@
+
+
+
+exec --no-startup-id sxhkd
+
+exec --no-startup-id polybar
+
+set_from_resource $wm.bar.position wm.bar.position bocxttom
+
