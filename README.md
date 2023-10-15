@@ -1,10 +1,4 @@
----
-title: My Dotfiles
-created: 2023-10-15T11:47:28.881Z
-modified: 2023-10-15T20:23:44.039Z
----
-
-# My Dotfiles
+ My Dotfiles
 
 <h2 align="center"> Riced up my 'Buntu</h2>
 
