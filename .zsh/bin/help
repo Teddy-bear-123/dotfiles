@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+if [ $# -lt 1 ]; then
+cat << HELP
+show help information on a command.
+
+Usage:
+  help [NAME]
+
+HELP
+return 
+fi
+
+"$@" --help 2>&1 | bat --plain --language=help

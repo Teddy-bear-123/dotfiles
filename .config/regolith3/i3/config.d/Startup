@@ -1,7 +1,6 @@
 
 
 
-exec --no-startup-id sxhkd
 
 exec --no-startup-id polybar
 
