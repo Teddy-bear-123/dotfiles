@@ -4,18 +4,18 @@
 
 ## Dependancies 
 ```
-		> OS: Ubuntu
-		> WM: i3
-		> DE: Regolith
-		> bar: polybar
-		> launcher: Rofi
-		> GTK 3: Ayu-Darker
-		> GTK 4: Rose-pine (too lazy to create my own gtk4 theme for ayu dark, will do later)
-		> Font: Nunito
-		> Terminal: Alacritty
-		> TextEdditor: Neovim
-		> File Manager: Ranger (terminal), dolphin (gui)
-		> Document viewer: Zathura
+	> OS: Ubuntu
+	> WM: i3
+	> DE: Regolith
+	> bar: polybar
+	> launcher: Rofi
+	> GTK 3: Ayu-Darker
+	> GTK 4: Rose-pine (too lazy to create my own gtk4 theme for ayu dark, will do later)
+	> Font: Nunito
+	> Terminal: Alacritty
+	> TextEdditor: Neovim
+	> File Manager: Ranger (terminal), dolphin (gui)
+	> Document viewer: Zathura
 ```
 
 ## Screenshots
@@ -47,3 +47,11 @@ Now add `exec --no-startup-id polybar` to your  `.config/regolith/i3/config.d` (
 5. Using rofi instead of ilia (regolith default application launcher/desktop exec)
 
 change `/usr/share/regolith/i3/config.d/20_ilia` to incude rofi instead of ilia (check my config for an example)
+
+6. Adding animations, bluur and rounded corers
+
++ install [picom-pijulius](https://github.com/pijulius/picom/tree/implement-window-animations)
++ Change the path to picom in `/usr/share/regolith-compositor/init` from `/usr/bin/picom` to /usr/local/bin/picom
++ Add your picom config to `~/.config/regolith3/picom/config`
+
+> If you wish to switch between the default picom and picom-pijulius only change the path in the first if statement in `/usr/share/regolith-compositor/init` and then use a script to rename `~/.config/regolith3/picom` to something else
