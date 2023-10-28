@@ -1,4 +1,4 @@
-regolith.wallpaper.file: /usr/share/backgrounds/back1-fix.jpg
+!regolith.wallpaper.file: /usr/share/backgrounds/back1-fix.jpg
 
 
 wm.bar.mode: hide
@@ -54,3 +54,5 @@ gtk.icon_theme_name:	Tela-circle-dracula
 gtk.theme_name: Ayu-Darker
 
 wm.program.lock: /usr/bin/gnome-screensaver
+regolith.wallpaper.file: /home/cv-rishi/.local/share/backgrounds/2023-10-17-18-35-20-back1-fix.jpg
+regolith.lockscreen.wallpaper.file: /home/cv-rishi/.local/share/backgrounds/2023-10-17-18-35-20-back1-fix.jpg
