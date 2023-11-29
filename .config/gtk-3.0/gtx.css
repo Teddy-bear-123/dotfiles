@@ -1,0 +1,9 @@
+ * {
+   background-clip: content-box;
+ }
+ headerbar{
+    background-color:rgba(0,0,0,0.3);
+ }
+ .titlebar {
+  background-color:rgba(0,0,0,0.3);
+}
