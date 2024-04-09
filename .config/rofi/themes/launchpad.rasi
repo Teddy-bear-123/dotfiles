@@ -1,0 +1,153 @@
+* {
+  bg: #0A0E14;
+  bg-alt: #45475A;
+  bg-entry: #01060e;
+  bg-trans: #0A0E14e5;
+
+  fg: #B3B1AD;
+  fg-alt: #707880;
+  
+  blue: #53BDFA;
+  yellow: #F9AF4f;
+  green: #91B362;
+  red: #EA6C73;
+  black: #01060e;
+  
+  border: 0;
+  margin: 0;
+  padding: 0;
+  spacing: 0;
+}
+
+window {
+  fullscreen: true;
+  transparency: "screenshot";
+  background-color: @bg-trans;
+  padding: 80 20%;
+}
+
+mainbox {
+  children: [contentbox, mode-switcher];
+  children: [contentbox];
+  orientation: vertical;
+  background-color: transparent;
+  spacing: 10;
+  padding: 10;
+  // background-image: url("~/.config/bspwm/wallpapers/back2.jpg", both);
+}
+
+contentbox {
+  children: [inputbar, listview];
+  background-color: inherit;
+}
+
+inputbar {
+  children: [inputbox];
+  children: [prompt, entry];
+  orientation: horizontal;
+  border: 2;
+  border-color: @bg-alt;
+  border-radius: 10;
+  background-color: transparent;
+  padding: 16 0 16 0;
+}
+
+
+prompt {
+  padding: 2 20 2 12 ;
+  expand: false;
+  background-color: transparent;
+  text-color: @fg;
+  font: "Hack Nerd font 12";
+}
+
+entry {
+  placeholder: "Search";
+  placeholder-color: @bg-alt;
+  expand: true;
+  padding: 2 0;
+  background-color: transparent;
+  text-color: @fg;
+}
+
+error-message {
+  background-color: @bg;
+  border: 2px;
+  border-color: @red;
+  padding: 20;
+}
+
+textbox {
+  background-color: inherit;
+  text-color: @red;
+}
+
+listview {
+  spacing: 20;
+  //border: 2;
+  //border-color: @bg-alt;
+  margin: 10% 0;
+  background-color: transparent;
+  border-radius: 10;
+  padding: 10;
+  columns: 6;
+  fixed-columns: true;
+  fixed-lines: true;
+  lines: 1;
+}
+
+element {
+  width: 10;
+  padding: 12 12;
+  orientation: vertical;
+  background-color: #45475A33;
+  text-color: @fg-alt;
+  border-radius: 10;
+  spacing: 10;
+  children: [element-icon, element-text];
+}
+
+
+element selected {
+  text-color: @bg;
+  background-color: @blue;
+}
+
+element-icon {
+  expand: false;
+  size: 80;
+  padding: 0 10 0 0;
+  background-color: transparent;
+}
+
+element-text {
+  expand: true;
+  background-color: transparent;
+  text-color: inherit;
+  horizontal-align: 0.4;
+}
+
+
+mode-switcher {
+  orientation: horizontal;
+  spacing: 10;
+  padding: 10 ;
+  border-radius: 10;
+  background-color: @bg;
+  border: 2;
+  border-color: @bg-alt;
+}
+
+button {
+  background-color: #45475A33;
+  text-color: @fg-alt;
+  padding: 10;
+  border-radius: 10;
+}
+
+button selected {
+  text-color: @bg;
+  background-color: @red;
+}
+
+/* vim: ft=sass

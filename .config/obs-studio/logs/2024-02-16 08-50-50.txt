@@ -1,0 +1,130 @@
+08:50:50.481: Using EGL/X11
+08:50:50.481: CPU Name: 12th Gen Intel(R) Core(TM) i7-12700H
+08:50:50.481: CPU Speed: 1733.386MHz
+08:50:50.481: Physical Cores: 14, Logical Cores: 20
+08:50:50.481: Physical Memory: 15601MB Total, 6361MB Free
+08:50:50.481: Kernel Version: Linux 6.5.0-17-generic
+08:50:50.481: Distribution: "Ubuntu" "23.10"
+08:50:50.481: Desktop Environment: Regolith:GNOME-Flashback:GNOME (regolith)
+08:50:50.481: Session Type: x11
+08:50:50.481: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+08:50:50.482: Qt Version: 5.15.10 (runtime), 5.15.10 (compiled)
+08:50:50.482: Portable mode: false
+08:50:50.508: OBS 29.1.3.1-2 (linux)
+08:50:50.508: ---------------------------------
+08:50:50.508: ---------------------------------
+08:50:50.508: audio settings reset:
+08:50:50.508: 	samples per sec: 48000
+08:50:50.508: 	speakers:        2
+08:50:50.508: 	max buffering:   960 milliseconds
+08:50:50.508: 	buffering type:  dynamically increasing
+08:50:50.509: ---------------------------------
+08:50:50.509: Initializing OpenGL...
+08:50:50.538: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2
+08:50:50.538: OpenGL loaded successfully, version 3.3.0 NVIDIA 535.154.05, shading language 3.30 NVIDIA via Cg compiler
+08:50:50.556: ---------------------------------
+08:50:50.556: video settings reset:
+08:50:50.556: 	base resolution:   1920x1080
+08:50:50.556: 	output resolution: 1920x1080
+08:50:50.556: 	downscale filter:  Bicubic
+08:50:50.556: 	fps:               60/1
+08:50:50.556: 	format:            NV12
+08:50:50.556: 	YUV mode:          Rec. 709/Partial
+08:50:50.556: NV12 texture support not available
+08:50:50.556: P010 texture support not available
+08:50:50.556: Audio monitoring device:
+08:50:50.556: 	name: Default
+08:50:50.556: 	id: default
+08:50:50.556: ---------------------------------
+08:50:50.557: Failed to load 'en-US' text for module: 'decklink-captions.so'
+08:50:50.557: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+08:50:50.558: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+08:50:50.558: Failed to initialize module 'decklink.so'
+08:50:50.559: Failed to load 'en-GB' text for module: 'frontend-tools.so'
+08:50:50.576: Failed to load 'en-GB' text for module: 'linux-alsa.so'
+08:50:50.577: Failed to load 'en-GB' text for module: 'linux-capture.so'
+08:50:50.578: Failed to load 'en-GB' text for module: 'linux-jack.so'
+08:50:50.579: Failed to load 'en-GB' text for module: 'linux-pipewire.so'
+08:50:50.580: [pipewire] No captures available
+08:50:50.580: Failed to load 'en-GB' text for module: 'linux-pulseaudio.so'
+08:50:50.602: NVENC supported
+08:50:50.604: VAAPI: API version 1.19
+08:50:50.605: FFmpeg VAAPI H264 encoding supported
+08:50:50.606: FFmpeg VAAPI HEVC encoding supported
+08:50:50.610: Failed to load 'en-GB' text for module: 'obs-websocket.so'
+08:50:50.610: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.2.3 | RPC Version: 1)
+08:50:50.610: [obs-websocket] [obs_module_load] Qt version (compile-time): 5.15.10 | Qt version (run-time): 5.15.10
+08:50:50.610: [obs-websocket] [obs_module_load] Linked ASIO Version: 102201
+08:50:50.614: [obs-websocket] [obs_module_load] Module loaded.
+08:50:50.615: Failed to load 'en-GB' text for module: 'rtmp-services.so'
+08:50:50.617: [vlc-video]: VLC 3.0.18 Vetinari found, VLC video source enabled
+08:50:50.617: ---------------------------------
+08:50:50.617:   Loaded Modules:
+08:50:50.617:     vlc-video.so
+08:50:50.617:     text-freetype2.so
+08:50:50.617:     rtmp-services.so
+08:50:50.617:     obs-x264.so
+08:50:50.617:     obs-websocket.so
+08:50:50.617:     obs-transitions.so
+08:50:50.617:     obs-outputs.so
+08:50:50.617:     obs-filters.so
+08:50:50.617:     obs-ffmpeg.so
+08:50:50.617:     linux-v4l2.so
+08:50:50.617:     linux-pulseaudio.so
+08:50:50.617:     linux-pipewire.so
+08:50:50.617:     linux-jack.so
+08:50:50.617:     linux-capture.so
+08:50:50.617:     linux-alsa.so
+08:50:50.617:     image-source.so
+08:50:50.617:     frontend-tools.so
+08:50:50.617:     decklink-output-ui.so
+08:50:50.617:     decklink-captions.so
+08:50:50.617: ---------------------------------
+08:50:50.618: ==== Startup complete ===============================================
+08:50:50.658: All scene data cleared
+08:50:50.658: ------------------------------------------------
+08:50:50.699: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.79) 15.0.0'
+08:50:50.699: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+08:50:50.699: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor' (default)
+08:50:50.699: [Loaded global audio device]: 'Desktop Audio'
+08:50:50.700: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.79) 15.0.0'
+08:50:50.700: pulse-input: An error occurred while getting the source info!
+08:50:50.700: [Loaded global audio device]: 'Mic/Aux'
+08:50:50.700: xshm-input: Geometry 1920x1080 @ 0,0
+08:50:50.701: Switched to scene 'Scene'
+08:50:50.701: ------------------------------------------------
+08:50:50.701: Loaded scenes:
+08:50:50.701: - scene 'Scene':
+08:50:50.701:     - source: 'Screen Capture (XSHM)' (xshm_input)
+08:50:50.701: ------------------------------------------------
+08:50:51.277: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+08:50:51.277: 
+08:51:05.626: ---------------------------------
+08:51:05.626: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+08:51:05.626: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+08:51:05.626: 	rate_control: CQP
+08:51:05.626: 	bitrate:      0
+08:51:05.626: 	cqp:          23
+08:51:05.626: 	keyint:       250
+08:51:05.626: 	preset:       p5
+08:51:05.626: 	tuning:       hq
+08:51:05.626: 	multipass:    qres
+08:51:05.626: 	profile:      high
+08:51:05.626: 	width:        1920
+08:51:05.626: 	height:       1080
+08:51:05.626: 	b-frames:     2
+08:51:05.626: 	psycho-aq:    1
+08:51:05.626: 	GPU:          0
+08:51:05.626: 
+08:51:05.767: ---------------------------------
+08:51:05.767: [FFmpeg aac encoder: 'simple_aac_recording0'] bitrate: 192, channels: 2, channel_layout: stereo
+08:51:05.767: 
+08:51:05.769: [ffmpeg muxer: 'simple_file_output'] Using muxer settings:
+08:51:05.769: 	movflags=frag_keyframe+empty_moov+delay_moov
+08:51:05.769: ==== Recording Start ===============================================
+08:51:05.769: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/cv-rishi/obs/2024-02-16 08-51-05.mp4'...
+08:51:21.151: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/cv-rishi/obs/2024-02-16 08-51-05.mp4' stopped
+08:51:21.151: Output 'simple_file_output': stopping
+08:51:21.151: Output 'simple_file_output': Total frames output: 911
+08:51:21.151: Output 'simple_file_output': Total drawn frames: 923
+08:51:21.151: ==== Recording Stop ================================================

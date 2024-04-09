@@ -1,0 +1,32 @@
+{
+    "no_systray": false,
+    "timeout": 2.5,
+    "recent_thr": 0.1,
+    "compr_cnt": 3,
+    "ignore": [],
+    "position": "fixed",
+    "persist": false,
+    "window": null,
+    "font_desc": "Hack Nerd Font Propo 10",
+    "font_size": "small",
+    "font_color": "#707078788080",
+    "bg_color": "#0a0a0e0e1414",
+    "opacity": 0.9,
+    "key_mode": "composed",
+    "bak_mode": "baked",
+    "mods_mode": "tux",
+    "mods_only": false,
+    "multiline": false,
+    "vis_shift": false,
+    "vis_space": true,
+    "geometry": [
+        1482,
+        935,
+        416,
+        100
+    ],
+    "screen": 0,
+    "start_disabled": false,
+    "mouse": false,
+    "button_hide_duration": 1
+}

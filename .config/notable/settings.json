@@ -1,0 +1,148 @@
+{
+  "themes": {
+    "active": "allmeta_ayu-dark-meta_Ayu Dark Meta",
+    "installed": {
+      "allmeta_ayu-dark-meta_Ayu Dark Meta": {
+        "id": "allmeta_ayu-dark-meta_Ayu Dark Meta",
+        "base": "dark",
+        "title": "Ayu Dark Meta",
+        "colors": {
+          "colors:primary:background": "hsl(220, 25.7142857143%, 10.862745098%)",
+          "colors:secondary:background": "#e6b450",
+          "colors:secondary:foreground": "#0a0e14",
+          "colors:error:background": "#0a0e14",
+          "sidebar:background": "#0a0e14",
+          "middlebar:background": "#0a0e14",
+          "middlebar:foreground": "#b3b1ad",
+          "mainbar:background": "#0a0e14",
+          "mainbar:foreground": "#b3b1ad",
+          "toolbar:background": "#0d1016",
+          "statusbar:background": "#0a0e14",
+          "statusbar:foreground": "#b3b1ad",
+          "titlebar:background": "#0a0e14",
+          "titlebar:foreground": "#b3b1ad",
+          "titlebar:button:background": "#0a0e14",
+          "titlebar:button:backgroundHover": "hsl(216, 33.3333333333%, 8.8823529412%)",
+          "titlebar:button:backgroundActive": "hsl(216, 33.3333333333%, 11.8823529412%)",
+          "titlebar:button:close:background": "#0a0e14",
+          "scrollbar:thumb:background": "#b3b1ad66",
+          "scrollbar:thumb:backgroundHover": "#b3b1ad99",
+          "scrollbar:thumb:backgroundActive": "#b3b1adb3",
+          "editor:background": "#0a0e14",
+          "editor:foreground": "#b3b1ad",
+          "editor:cursor:foreground": "#e6b450",
+          "editor:guide:background": "#b3b1ad66",
+          "editor:guide:backgroundActive": "#b3b1ad66",
+          "editor:gutter:background": "#0a0e14",
+          "editor:gutter:foreground": "#b3b1ad99",
+          "editor:highlight:background": "#121922",
+          "preview:background": "#0a0e14",
+          "preview:foreground": "#b3b1ad",
+          "preview:blockquote:border": "hsla(40, 0%, 66.0196078431%, 0.6)",
+          "preview:blockquote:foreground": "hsla(40, 0%, 69.0196078431%, 0.6)",
+          "preview:heading:border": "hsla(40, 0%, 69.0196078431%, 0.6)",
+          "preview:h6:foreground": "hsla(40, 0%, 69.0196078431%, 0.6)",
+          "preview:hr:background": "hsla(40, 0%, 66.0196078431%, 0.6)",
+          "preview:link:foreground": "#e6b450",
+          "preview:table:border": "hsla(40, 0%, 66.0196078431%, 0.6)",
+          "preview:table:row:even:background": "rgba(230, 180, 80, 0.05)",
+          "highlighter:tokens:default:foreground": "#b3b1ad",
+          "highlighter:tokens:annotation:foreground": "#626a73",
+          "highlighter:tokens:attribute:name:foreground": "#626a73",
+          "highlighter:tokens:attribute:value:foreground": "#b3b1ad",
+          "highlighter:tokens:attribute:value:html:foreground": "#b3b1ad",
+          "highlighter:tokens:attribute:value:number:foreground": "#b3b1ad",
+          "highlighter:tokens:attribute:value:unit:foreground": "#b3b1ad",
+          "highlighter:tokens:attribute:value:xml:foreground": "#b3b1ad",
+          "highlighter:tokens:comment:foreground": "#626a73",
+          "highlighter:tokens:constant:foreground": "#626a73",
+          "highlighter:tokens:deletion:foreground": "#626a73",
+          "highlighter:tokens:delimiter:foreground": "#b3b1ad",
+          "highlighter:tokens:delimiter:html:foreground": "#b3b1ad",
+          "highlighter:tokens:delimiter:xml:foreground": "#b3b1ad",
+          "highlighter:tokens:emphasis:foreground": "#b3b1ad",
+          "highlighter:tokens:insertion:foreground": "#626a73",
+          "highlighter:tokens:invalid:foreground": "#626a73",
+          "highlighter:tokens:keyword:foreground": "#626a73",
+          "highlighter:tokens:keyword:json:foreground": "#626a73",
+          "highlighter:tokens:meta:scss:foreground": "#626a73",
+          "highlighter:tokens:metatag:content:html:foreground": "#626a73",
+          "highlighter:tokens:metatag:html:foreground": "#626a73",
+          "highlighter:tokens:metatag:php:foreground": "#b3b1ad",
+          "highlighter:tokens:metatag:xml:foreground": "#626a73",
+          "highlighter:tokens:number:foreground": "#626a73",
+          "highlighter:tokens:number:hex:foreground": "#626a73",
+          "highlighter:tokens:regexp:foreground": "#626a73",
+          "highlighter:tokens:strikethrough:foreground": "#b3b1ad",
+          "highlighter:tokens:string:foreground": "#b3b1ad",
+          "highlighter:tokens:string:link:foreground": "#626a73",
+          "highlighter:tokens:string:escape:foreground": "#626a73",
+          "highlighter:tokens:string:html:foreground": "#b3b1ad",
+          "highlighter:tokens:string:key:json:foreground": "#626a73",
+          "highlighter:tokens:string:sql:foreground": "#626a73",
+          "highlighter:tokens:string:value:json:foreground": "#b3b1ad",
+          "highlighter:tokens:string:yaml:foreground": "#b3b1ad",
+          "highlighter:tokens:strong:foreground": "#b3b1ad",
+          "highlighter:tokens:tag:foreground": "#626a73",
+          "highlighter:tokens:type:foreground": "#626a73",
+          "highlighter:tokens:variable:foreground": "#626a73",
+          "highlighter:tokens:variable:source:foreground": "#b3b1ad",
+          "highlighter:tokens:variable:predefined:foreground": "#626a73",
+          "sidebar:foreground": "#b3b1ad",
+          "list:header:background": "rgb(11.5, 15, 21)"
+        }
+      }
+    }
+  },
+  "editor": {
+    "mode": {
+      "split": {
+        "enabled": true
+      }
+    },
+    "scroll": {
+      "sync": {
+        "enabled": false
+      }
+    }
+  },
+  "view": {
+    "sidebar": {
+      "enabled": true
+    },
+    "mode": {
+      "zen": {
+        "enabled": true
+      }
+    }
+  },
+  "spellChecker": {
+    "enabled": true,
+    "dictionary": {
+      "include": [
+        "Jojen",
+        "Colonization",
+        "naiveté",
+        "idealized",
+        "Bishan",
+        "Tek",
+        "Toba",
+        "Manto",
+        "Colonalsim",
+        "sussaptable",
+        "metalware",
+        "Kitikpa",
+        "mom",
+        "Colonizers",
+        "india"
+      ]
+    }
+  },
+  "markdown": {
+    "tables": {
+      "autoformat": {
+        "enabled": false
+      }
+    }
+  }
+}
