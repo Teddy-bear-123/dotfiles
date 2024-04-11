@@ -1,6 +1,8 @@
 lastupdatecheck: 0
 recentrepos:
 - /home/cv-rishi/Dotfiles
+- /home/cv-rishi/Dotfiles/.config/nvim
+- /home/cv-rishi/.config/nvim
 - /home/cv-rishi/Dropbox/University/Engima/418
 - /home/cv-rishi/University/Engima/418
 - /home/cv-rishi/Projects/ZestyAhhhWebsite

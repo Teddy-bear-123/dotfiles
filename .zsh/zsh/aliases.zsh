@@ -20,6 +20,7 @@ alias config='/usr/bin/git --git-dir=$HOME/Projects/Dotfiles-2 --work-tree=$HOME
 
 # Neovim
 alias vimdiff='nvim -d'
+alias v='fd --hidden --exclude=.git | fzf-tmux -p --reverse | xargs nvim'
 
 
 # misc 

@@ -43,7 +43,7 @@ local function footer()
 	-- local fortune = handle:read("*a")
 	-- handle:close()
 	-- return fortune
-	return "reeeeeeeeeeeeeeee"
+	return "I Use Vim Btw"
 end
 
 dashboard.section.footer.val = footer()
