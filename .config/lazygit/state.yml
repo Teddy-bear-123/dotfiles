@@ -1,6 +1,7 @@
 lastupdatecheck: 0
 recentrepos:
 - /home/cv-rishi/Dotfiles
+- /home/cv-rishi/Projects/tmux-ayu
 - /home/cv-rishi/Dotfiles/.config/nvim
 - /home/cv-rishi/.config/nvim
 - /home/cv-rishi/Dropbox/University/Engima/418
@@ -9,8 +10,8 @@ recentrepos:
 - /home/cv-rishi/University/Misc/SIH
 startuppopupversion: 5
 customcommandshistory:
-- Q
-- q
 - updates
-hidecommandlog: true
+- q
+- Q
+hidecommandlog: false
 ignorewhitespaceindiffview: false

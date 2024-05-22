@@ -19,7 +19,7 @@
     "latestPaths": "[]"
   },
   "layoutResizable": {
-    "states": "[[\"app__NOTABLE_SEPARATOR__layout column viewbar no-sash  -layout column sidebar   -layout column mainbar   \",{\"0\":68,\"1\":442,\"2\":1410}],[\"split-editor__NOTABLE_SEPARATOR__monaco-editor-wrapper editor  note-editor layout-content -preview-wrapper layout-content \",{\"0\":960,\"1\":960}],[\"app__NOTABLE_SEPARATOR__layout column viewbar no-sash  -layout column mainbar   \",{\"0\":68,\"1\":1852}],[\"split-editor__NOTABLE_SEPARATOR__monaco-editor-wrapper editor layout-content-preview-wrapper layout-content \",{\"0\":474,\"1\":473}]]"
+    "states": "[[\"app__NOTABLE_SEPARATOR__layout column sidebar   -layout column mainbar   \",{\"0\":386,\"1\":561}],[\"app__NOTABLE_SEPARATOR__layout column viewbar no-sash  -layout column mainbar   \",{\"0\":68,\"1\":879}],[\"app__NOTABLE_SEPARATOR__layout column viewbar no-sash  -layout column sidebar   -layout column mainbar   \",{\"0\":68,\"1\":371,\"2\":508}],[\"split-editor__NOTABLE_SEPARATOR__monaco-editor-wrapper editor  note-editor layout-content -preview-wrapper layout-content \",{\"0\":474,\"1\":473}],[\"split-editor__NOTABLE_SEPARATOR__monaco-editor-wrapper editor layout-content-preview-wrapper layout-content \",{\"0\":960,\"1\":960}]]"
   },
   "view": {
     "current": "\"explorer\""

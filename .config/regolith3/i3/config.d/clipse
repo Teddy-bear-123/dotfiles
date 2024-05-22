@@ -1,0 +1,7 @@
+exec --no-startup-id clipse -listen        
+
+
+
+
+bindsym $mod+comma exec --no-startup-id alacritty -e "$SHELL" -c "i3-msg 'floating enable' && clipse" # Bind floating shell with TUI selection to something nice 
+

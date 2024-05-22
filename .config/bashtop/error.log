@@ -158,3 +158,29 @@ New instance of bashtop version: 0.9.25 Pid: 74586
 New instance of bashtop version: 0.9.25 Pid: 75788
  
 New instance of bashtop version: 0.9.25 Pid: 3418
+ 
+New instance of bashtop version: 0.9.25 Pid: 29289
+ 
+New instance of bashtop version: 0.9.25 Pid: 10312
+ 
+New instance of bashtop version: 0.9.25 Pid: 312538
+ 
+New instance of bashtop version: 0.9.25 Pid: 346076
+ 
+New instance of bashtop version: 0.9.25 Pid: 346077
+ 
+New instance of bashtop version: 0.9.25 Pid: 5927
+ 
+New instance of bashtop version: 0.9.25 Pid: 3731
+ 
+New instance of bashtop version: 0.9.25 Pid: 69087
+/usr/bin/bashtop: line 1337: ((: rke    1 root      0.0        0.0 : syntax error in expression (error token is "1 root      0.0        0.0 ")
+/usr/bin/bashtop: line 1347: ((: rke    1 root      0.0        0.0 : syntax error in expression (error token is "1 root      0.0        0.0 ")
+/usr/bin/bashtop: line 1353: ((: rke    1 root      0.0        0.0 : syntax error in expression (error token is "1 root      0.0        0.0 ")
+/usr/bin/bashtop: line 1334: ((: rke    1 root      0.0        0.0 : syntax error in expression (error token is "1 root      0.0        0.0 ")
+/usr/bin/bashtop: line 1347: ((: rke    1 root      0.0        0.0 : syntax error in expression (error token is "1 root      0.0        0.0 ")
+/usr/bin/bashtop: line 1353: ((: rke    1 root      0.0        0.0 : syntax error in expression (error token is "1 root      0.0        0.0 ")
+/usr/bin/bashtop: line 1334: ((: rke    1 root      0.0        0.0 : syntax error in expression (error token is "1 root      0.0        0.0 ")
+/usr/bin/bashtop: line 3037: rke    1 root      0.0        0.0 : syntax error in expression (error token is "1 root      0.0        0.0 ")
+ 
+New instance of bashtop version: 0.9.25 Pid: 746258

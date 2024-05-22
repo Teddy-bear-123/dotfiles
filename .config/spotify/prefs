@@ -1,13 +1,12 @@
 autologin.canonical_username="7o1hzhvljoncwesf493vsqu99"
 autologin.saved_credentials="{\"7o1hzhvljoncwesf493vsqu99\":[\"7o1hzhvljoncwesf493vsqu99\",\"i7rY3it+8EaJjiQYQBDeqMBa471JY9+AnWPfeUerUm10GqivK0jOQY89JEF/7VPmQk9cPRFDEW/VzqYbP030N8eAqpcPsD1pfFBLRjkW+IAkDb3EExeAT+ykwHIpW61nP4LW/5zB6hcKlZ6Nv5ZYMmidPrpaAWBMHvFlclrstE18CqCvWRTenO8qgDxMsMQoyPFXX1c/onIGO8hXoyDCN07GRaHoNgAuFYfgnXmjyCboQknOLbX6LHbxMnPhVd8/uHtNcIptm2Lf9lEEyvA1TjzC95IDayQtaVRau7KVdLsiyJ2AOoy4qcBtq2i59bANcg14r01B9agnmwFeHit14w==\"]}"
 autologin.blob="i7rY3it+8EaJjiQYQBDeqMBa471JY9+AnWPfeUerUm10GqivK0jOQY89JEF/7VPmQk9cPRFDEW/VzqYbP030N8eAqpcPsD1pfFBLRjkW+IAkDb3EExeAT+ykwHIpW61nP4LW/5zB6hcKlZ6Nv5ZYMmidPrpaAWBMHvFlclrstE18CqCvWRTenO8qgDxMsMQoyPFXX1c/onIGO8hXoyDCN07GRaHoNgAuFYfgnXmjyCboQknOLbX6LHbxMnPhVd8/uHtNcIptm2Lf9lEEyvA1TjzC95IDayQtaVRau7KVdLsiyJ2AOoy4qcBtq2i59bANcg14r01B9agnmwFeHit14w=="
-core.clock_delta=0
+core.clock_delta=1
 autologin.username="7o1hzhvljoncwesf493vsqu99"
 app.window.position.saved=true
-app.window.position.height=1028
-app.window.position.y=44
+app.window.position.height=1044
+app.window.position.y=36
 storage.last-location="/home/cv-rishi/.cache/spotify/Storage"
 app.window.state.saved=true
-app.window.position.width=947
-app.window.position.x=8
+app.window.position.width=1920
 app.last-launched-version="1.2.31.1205.g4d59ad7c"

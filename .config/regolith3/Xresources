@@ -50,7 +50,7 @@ wm.workspace.19.name: 19
 
 gtk.document_font_name:	Nunito Regular 12
 gtk.font_name:	Nunito Regular 12
-gtk.icon_theme_name:	Tela-circle-dracula
+gtk.icon_theme_name:	Tela-circle-black-dark
 gtk.theme_name: Ayu-Darker
 
 wm.program.lock: /usr/bin/gnome-screensaver

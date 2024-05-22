@@ -97,7 +97,12 @@
   "editor": {
     "mode": {
       "split": {
-        "enabled": true
+        "enabled": false,
+        "order": {
+          "reversed": {
+            "vertical": true
+          }
+        }
       }
     },
     "scroll": {
@@ -112,8 +117,11 @@
     },
     "mode": {
       "zen": {
-        "enabled": true
+        "enabled": false
       }
+    },
+    "viewbar": {
+      "enabled": false
     }
   },
   "spellChecker": {
