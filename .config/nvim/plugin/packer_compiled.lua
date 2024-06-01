@@ -324,6 +324,11 @@ _G.packer_plugins = {
     path = "/home/cv-rishi/.local/share/nvim/site/pack/packer/start/vim-be-good",
     url = "https://github.com/ThePrimeagen/vim-be-good"
   },
+  ["vim-dispatch"] = {
+    loaded = true,
+    path = "/home/cv-rishi/.local/share/nvim/site/pack/packer/start/vim-dispatch",
+    url = "https://github.com/tpope/vim-dispatch"
+  },
   ["vim-illuminate"] = {
     loaded = true,
     path = "/home/cv-rishi/.local/share/nvim/site/pack/packer/start/vim-illuminate",
@@ -348,7 +353,7 @@ try_loadstring("\27LJ\2\n=\0\0\2\0\4\0\0056\0\0\0009\0\1\0005\1\3\0=\1\2\0K\0\1\
 time([[Setup for markdown-preview.nvim]], false)
 -- Setup for: lsp-timeout.nvim
 time([[Setup for lsp-timeout.nvim]], true)
-try_loadstring("\27LJ\2\n]\0\0\2\0\4\0\0056\0\0\0009\0\1\0005\1\3\0=\1\2\0K\0\1\0\1\0\3\vsilent\1\17startTimeout\3êN\16stopTimeout\3‡ß\18\21lspTimeoutConfig\6g\bvim\0", "setup", "lsp-timeout.nvim")
+try_loadstring("\27LJ\2\n]\0\0\2\0\4\0\0056\0\0\0009\0\1\0005\1\3\0=\1\2\0K\0\1\0\1\0\3\17startTimeout\3êN\16stopTimeout\3‡ß\18\vsilent\1\21lspTimeoutConfig\6g\bvim\0", "setup", "lsp-timeout.nvim")
 time([[Setup for lsp-timeout.nvim]], false)
 time([[packadd for lsp-timeout.nvim]], true)
 vim.cmd [[packadd lsp-timeout.nvim]]

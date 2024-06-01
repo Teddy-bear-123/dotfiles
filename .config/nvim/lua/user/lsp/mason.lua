@@ -10,6 +10,8 @@ local servers = {
     "grammarly",
     "marksman",
     "eslint",
+    "texlab",
+    "ruff_lsp"
 	-- "yamlls",
 }
 

@@ -38,6 +38,8 @@ map i recolor
 map f toggle_fullscreen
 map [fullscreen] f toggle_fullscreen
 
+set fork true
+set window-title-home-tilde no
 
 
 

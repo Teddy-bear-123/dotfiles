@@ -118,6 +118,9 @@
     "mode": {
       "zen": {
         "enabled": false
+      },
+      "centered": {
+        "enabled": false
       }
     },
     "viewbar": {

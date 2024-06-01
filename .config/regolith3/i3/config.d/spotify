@@ -1,0 +1,2 @@
+bindsym $mod+s exec --no-startup-id alacritty -e "$SHELL" -c "i3-msg 'floating enable' && spt" # Bind floating shell with TUI selection to something nice 
+

@@ -54,7 +54,7 @@ setopt AUTOCD # navigate through folders without cd
 stty stop undef		# Disable ctrl-s to freeze terminal.
 
 # Source zsh files
-
+source "${ZSH}/zsh/spotify_autocomplete.sh" 
 source "${ZSH}/zsh/aliases.zsh"
 source "${ZSH}/zsh/prompt.zsh"
 
@@ -110,3 +110,6 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
+
+# Following line was automatically added by arttime installer
+export MANPATH=/home/cv-rishi/.local/share/man:$MANPATH

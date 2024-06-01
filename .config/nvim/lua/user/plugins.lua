@@ -150,6 +150,9 @@ return packer.startup(function(use)
 			require("usage").setup()
 		end,
 	})
+
+
+    use({"https://github.com/tpope/vim-dispatch"})
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then

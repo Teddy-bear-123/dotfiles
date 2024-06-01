@@ -11,4 +11,4 @@ HELP
 return 
 fi
 
-"$@" --help 2>&1 | bat --plain --language=help
+"$@" --help 2>&1 | batcat --plain --language=help

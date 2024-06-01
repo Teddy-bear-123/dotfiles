@@ -14,6 +14,9 @@ alias lg="lazygit"
 alias neofetch="neofetch --jp2a ~/.config/neofetch/One-Piece-Strawhat.png"
 alias cat="batcat"
 alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
+alias please='sudo'
+alias fucking='sudo'
+alias say='echo'
 #git
 
 alias config='/usr/bin/git --git-dir=$HOME/Projects/Dotfiles-2 --work-tree=$HOME'
