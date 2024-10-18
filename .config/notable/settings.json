@@ -117,7 +117,7 @@
     },
     "mode": {
       "zen": {
-        "enabled": false
+        "enabled": true
       },
       "centered": {
         "enabled": false

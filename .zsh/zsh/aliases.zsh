@@ -17,6 +17,7 @@ alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
 alias please='sudo'
 alias fucking='sudo'
 alias say='echo'
+alias reload='source ~/.zshrc'
 #git
 
 alias config='/usr/bin/git --git-dir=$HOME/Projects/Dotfiles-2 --work-tree=$HOME'
@@ -29,6 +30,7 @@ alias v='fd --hidden --exclude=.git | fzf-tmux -p --reverse | xargs nvim'
 # misc 
 alias oldp="cd ~/OldProjects/"
 alias tos="cd ~/OldProjects/TheOverSeer/"
+alias me="cd ~/Projects/Literally\ Me/"
 alias localp="cd ~/Projects/"
 
 #ani-cli

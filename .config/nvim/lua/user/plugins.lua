@@ -55,9 +55,8 @@ return packer.startup(function(use)
 	use({ "lewis6991/impatient.nvim", commit = "b842e16ecc1a700f62adb9802f8355b99b52a5a6" })
 	use({ "lukas-reineke/indent-blankline.nvim", commit = "db7cbcb40cc00fc5d6074d7569fb37197705e7f6" })
 	use({ "goolord/alpha-nvim" })
-	use({ "folke/which-key.nvim" })
+	use({ "folke/which-key.nvim", branch = "v3" })
 	use({ "neoclide/coc.nvim", branch = "release" })
-	use({ "andweeb/presence.nvim" })
 	-- Colorschemes
 	use({ "folke/tokyonight.nvim", commit = "66bfc2e8f754869c7b651f3f47a2ee56ae557764" })
 	use({ "lunarvim/darkplus.nvim", commit = "13ef9daad28d3cf6c5e793acfc16ddbf456e1c83" })
@@ -70,10 +69,47 @@ return packer.startup(function(use)
 	use({ "saadparwaiz1/cmp_luasnip" }) -- snippet completions
 	use({ "hrsh7th/cmp-nvim-lsp" })
 	use({ "hrsh7th/cmp-nvim-lua" })
+	use({ "tzachar/cmp-ai" })
 
 	-- Github copilot
 
 	use({ "github/copilot.vim" })
+
+	use({
+		"David-Kunz/gen.nvim",
+		opts = {
+			model = "llama3.1:8b", -- The default model to use.
+			quit_map = "q", -- set keymap for close the response window
+			retry_map = "<c-r>", -- set keymap to re-send the current prompt
+			accept_map = "<c-cr>", -- set keymap to replace the previous selection with the last result
+			host = "localhost", -- The host running the Ollama service.
+			port = "11434", -- The port on which the Ollama service is listening.
+			display_mode = "split", -- The display mode. Can be "float" or "split" or "horizontal-split".
+			show_prompt = true, -- Shows the prompt submitted to Ollama.
+			show_model = true, -- Displays which model you are using at the beginning of your chat session.
+			no_auto_close = true, -- Never closes the window automatically.
+			hidden = true, -- Hide the generation window (if true, will implicitly set `prompt.replace = true`), requires Neovim >= 0.10
+			init = function(options)
+				pcall(io.popen, "ollama serve > /dev/null 2>&1 &")
+			end,
+			-- Function to initialize Ollama
+			command = function(options)
+				local body = { model = options.model, stream = true }
+				return "curl --silent --no-buffer -X POST http://"
+					.. options.host
+					.. ":"
+					.. options.port
+					.. "/api/chat -d $body"
+			end,
+			-- The command for the Ollama service. You can use placeholders $prompt, $model and $body (shellescaped).
+			-- This can also be a command string.
+			-- The executed command must return a JSON object with { response, context }
+			-- (context property is optional).
+			-- list_models = '<omitted lua function>', -- Retrieves a list of model names
+			debug = true, -- Prints errors and the command which is run.
+		},
+	})
+	use({ "supermaven-inc/supermaven-nvim" })
 	-- Snippets
 	use({ "L3MON4D3/LuaSnip" }) --snippet engine
 	use({ "rafamadriz/friendly-snippets" }) -- a bunch of snippets to use
@@ -113,6 +149,9 @@ return packer.startup(function(use)
 	-- VimWithMe
 	use({ "ThePrimeagen/vim-be-good" })
 
+	-- magma (ipnyb)
+	use({ "dccsillag/magma-nvim", run = ":UpdateRemotePlugins" })
+
 	-- Markdown
 	use({
 		"ellisonleao/glow.nvim",
@@ -130,20 +169,14 @@ return packer.startup(function(use)
 		ft = { "markdown" },
 	})
 
-	-- Leetcode
-	use({ "MunifTanjim/nui.nvim" })
+	-- Discord presense
+	-- use({ "IogaMaster/neocord" })
+
 	use({ "rcarriga/nvim-notify" })
-	use({
-		"kawre/leetcode.nvim",
-		opts = {
-			arg = "leetcode.nvim",
-			lang = "python3",
-			domain = "com",
-			directory = vim.fn.stdpath("data") .. "/leetcode/",
-			logging = true,
-		},
-	})
-	use({ "NvChad/nvim-colorizer.lua"})
+	use({ "MunifTanjim/nui.nvim" })
+	use({ "grapp-dev/nui-components.nvim" })
+
+	use({ "NvChad/nvim-colorizer.lua" })
 	use({
 		"Aityz/usage.nvim",
 		config = function()
@@ -151,8 +184,7 @@ return packer.startup(function(use)
 		end,
 	})
 
-
-    use({"https://github.com/tpope/vim-dispatch"})
+	use({ "https://github.com/tpope/vim-dispatch" })
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then

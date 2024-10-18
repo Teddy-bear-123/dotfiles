@@ -28,7 +28,7 @@ null_ls.setup({
 			extra_args = {
                 "--silent",
                 "--overwrite",
-                "-l", "~/.config/defaultSettings.yaml"
+                "-l", "/home/cv-rishi/.config/defaultSettings.yaml"
 
 			},
 		}),

@@ -1,0 +1,22 @@
+2024-06-01T19:25:33.745Z 0: 
+
+----------------------------------------------
+2024-06-01T19:25:33.758Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.54"}, modulepath: /home/cv-rishi/.config/discord/0.0.54/modules
+2024-06-01T19:25:33.762Z 2: ✅ webContents.created web1 ""
+2024-06-01T19:25:33.765Z 3: ✅ window.created win1 "discord"
+2024-06-01T19:25:34.015Z 4: ✅ webContents.did-finish-load web1
+2024-06-01T19:25:47.290Z 5: ✅ webContents.created web2 ""
+2024-06-01T19:25:47.300Z 6: ✅ window.created win2 "Discord"
+2024-06-01T19:48:23.293Z 0: 
+
+----------------------------------------------
+2024-06-01T19:48:23.306Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.54"}, modulepath: /home/cv-rishi/.config/discord/0.0.54/modules
+2024-06-01T19:48:23.313Z 2: ✅ webContents.created web1 ""
+2024-06-01T19:48:23.316Z 3: ✅ window.created win1 "discord"
+2024-06-01T19:48:23.530Z 4: ✅ webContents.did-finish-load web1
+2024-06-01T19:48:24.083Z 5: ✅ webContents.created web2 ""
+2024-06-01T19:48:24.092Z 6: ✅ window.created win2 "Discord"
+2024-06-01T19:48:25.847Z 7: ✅ webContents.did-finish-load web2
+2024-06-01T19:48:25.947Z 8: window.close win1
+2024-06-01T19:48:25.961Z 9: webContents.destroyed web1
+2024-06-01T19:48:25.962Z 10: window.closed win1

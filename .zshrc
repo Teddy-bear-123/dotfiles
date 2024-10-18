@@ -5,7 +5,6 @@ export PATH="${PATH}:/usr/local/lib/python3.11/dist-packages"
 export PATH="/home/cv-rishi/.local/bin:$PATH"
 export PATH=$PATH:/usr/local/go/bin
 export PATH="$PATH:/home/cv-rishi/julia-1.8.1/bin"
-#exec export DISPLAY=:1.0
 export EDITOR=nvim
 export VISUAL="$EDITOR"
 
@@ -30,9 +29,9 @@ fpath=($ZSH/bin $fpath)
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
-HISTFILE=~/.zsh_history
-HISTSIZE=10000
-SAVEHIST=10000
+HISTFILE=~/.zsh/zsh_history
+HISTSIZE=100000000
+SAVEHIST=100000000
 
 setopt NO_BG_NICE # don't nice background tasks
 setopt NO_HUP
@@ -57,6 +56,7 @@ stty stop undef		# Disable ctrl-s to freeze terminal.
 source "${ZSH}/zsh/spotify_autocomplete.sh" 
 source "${ZSH}/zsh/aliases.zsh"
 source "${ZSH}/zsh/prompt.zsh"
+source <(hugo completion zsh)
 
 
 
@@ -82,6 +82,8 @@ zinit light Aloxaf/fzf-tab
 
 # Fish-like fast/unobtrusive autosuggestions for zsh.
 zinit load zsh-users/zsh-autosuggestions
+bindkey '^E' autosuggest-accept
+
 
 export DISPLAY=:1.0
 # fzf global setup
@@ -104,7 +106,7 @@ eval "$(zoxide init --cmd j zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 
-
+nohup xmodmap ~/.config/Xmodmap >/dev/null 2>&1
 
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"

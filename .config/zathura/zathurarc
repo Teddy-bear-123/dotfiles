@@ -28,9 +28,9 @@ set notification-error-fg "#2b3339"
 set notification-warning-bg "#e68183"
 set notification-warning-fg "#2b3339"
 
-set highlight-color "#a7c080"
-set highlight-active-color "#7fbbb3"
-set highlight-transparency 0.35
+set highlight-color "#c7c7cd"
+set highlight-active-color "#c7c7cd"
+set highlight-transparency 0.25
 map <A-n> set nohlsearch
 map p print
 map r reload
