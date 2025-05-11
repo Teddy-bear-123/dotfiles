@@ -33,8 +33,8 @@ recentrepos:
 - /home/cv-rishi/University/Misc/SIH
 startuppopupversion: 5
 customcommandshistory:
-- Q
-- q
 - updates
+- q
+- Q
 hidecommandlog: true
 ignorewhitespaceindiffview: false
