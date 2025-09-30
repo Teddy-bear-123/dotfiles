@@ -1,11 +1,12 @@
 export LANG="en_US.UTF-8"
 export ZSH="${HOME}/.zsh"
+export PATH=${ZSH}/bin:$PATH
 export PATH=$PATH:/home/cv-rishi/.spicetify
 export PATH="${PATH}:/usr/local/lib/python3.11/dist-packages"
 export PATH="/home/cv-rishi/.local/bin:$PATH"
 export PATH=$PATH:/usr/local/go/bin
-export PATH="$PATH:/home/cv-rishi/julia-1.8.1/bin"
-export EDITOR=nvim
+export PATH="$PATH:/home/cv-rishi/.local/julia-1.8.1/bin"
+export EDITOR="$HOME/.local/share/bob/nvim-bin/nvim"
 export VISUAL="$EDITOR"
 
 if ! command -v "brew" &> /dev/null; then
@@ -21,7 +22,13 @@ export CLICOLOR=true
 export DISPLAY=:0
 export HOMEBREW_NO_ANALYTICS=1
 
+bindkey -v
 
+# Ctrl+hjkl for movement in insert mode
+bindkey '^H' backward-char
+bindkey '^J' down-line-or-history  
+bindkey '^K' up-line-or-history
+bindkey '^L' forward-char
 
 fpath=($ZSH/bin $fpath)
 
@@ -30,7 +37,7 @@ autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
 HISTFILE=~/.zsh/zsh_history
-HISTSIZE=100000000
+HISTSIZE=100000000 # =100,000,000
 SAVEHIST=100000000
 
 setopt NO_BG_NICE # don't nice background tasks
@@ -56,6 +63,8 @@ stty stop undef		# Disable ctrl-s to freeze terminal.
 source "${ZSH}/zsh/spotify_autocomplete.sh" 
 source "${ZSH}/zsh/aliases.zsh"
 source "${ZSH}/zsh/prompt.zsh"
+# source "${ZSH}/bin/help"
+# source "${ZSH}/bin/extract"
 source <(hugo completion zsh)
 
 
@@ -113,9 +122,25 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init -)"
 
 export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
+export PATH="$HOME/.local/share/bob/nvim-bin/:$PATH"
 export LD_LIBRARY_PATH=/usr/local/cuda-12.6/lib64\${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:\
+$HOME/.pyenv/versions/Biriyani-3.10.0/lib/python3.10/site-packages/nvidia/cublas/lib:\
+$HOME/.pyenv/versions/Biriyani-3.10.0/lib/python3.10/site-packages/nvidia/cudnn/lib
+
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 
+export ANDROID_NDK_HOME=/opt/android-ndk-r28c
+export ANDROID_NDK_ROOT=$ANDROID_NDK_HOME
+export PATH=$PATH:$ANDROID_NDK_HOME
+
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+export PATH=$JAVA_HOME/bin:$PATH
+export PATH="$HOME/.dotnet:$PATH"
 
 # Following line was automatically added by arttime installer
 export MANPATH=/home/cv-rishi/.local/share/man:$MANPATH
+export PATH="/home/cv-rishi/.bun/bin:$PATH"

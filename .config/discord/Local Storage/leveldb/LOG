@@ -1,6 +1,0 @@
-2024/06/02-01:18:23.252 1785 Reusing MANIFEST /home/cv-rishi/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2024/06/02-01:18:23.258 1785 Recovering log #3
-2024/06/02-01:18:23.258 1785 Reusing old log /home/cv-rishi/.config/discord/Local Storage/leveldb/000003.log 
-2024/06/02-01:22:22.685 1784 Level-0 table #5: started
-2024/06/02-01:22:22.719 1784 Level-0 table #5: 3118917 bytes OK
-2024/06/02-01:22:22.722 1784 Delete type=0 #3

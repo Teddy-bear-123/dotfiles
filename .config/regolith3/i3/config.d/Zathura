@@ -1,3 +1,0 @@
-# Prevent Zathura from stealing focus
-for_window [class="Zathura"] no_focus
-

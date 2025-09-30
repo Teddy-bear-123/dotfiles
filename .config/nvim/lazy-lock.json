@@ -1,0 +1,12 @@
+{
+  "LuaSnip": { "branch": "master", "commit": "73813308abc2eaeff2bc0d3f2f79270c491be9d7" },
+  "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },
+  "mason.nvim": { "branch": "main", "commit": "b3689a41dd77e5294498dba9757fb22cc80cbebd" },
+  "mini.bufremove": { "branch": "main", "commit": "6ce45baad3af93e4b112d84f702eb00bb4e29b9e" },
+  "mini.pick": { "branch": "main", "commit": "364a239e1c87ce1c4e9355cb7836d99686bb1912" },
+  "neovim-ayu": { "branch": "master", "commit": "cc78e880cce5dfc1187d144ed7251c746feff259" },
+  "nvim-lspconfig": { "branch": "master", "commit": "a844e89ea0e0e4b207ec550c3b51fb6e471881a4" },
+  "nvim-treesitter": { "branch": "master", "commit": "42fc28ba918343ebfd5565147a42a26580579482" },
+  "oil.nvim": { "branch": "master", "commit": "919e155fdf38e9148cdb5304faaaf53c20d703ea" },
+  "typst-preview.nvim": { "branch": "master", "commit": "1603d37bb44ed2efa0b4378d1dfedc087b4f2141" }
+}

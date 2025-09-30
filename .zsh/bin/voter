@@ -1,0 +1,19 @@
+#!/bin/env bash
+
+urls=(
+  "https://top.gg/bot/646937666251915264/vote"
+  "https://top.gg/bot/874184247731171348/vote"
+  "https://top.gg/bot/853629533855809596/vote"
+  "https://sofi.gg/bump"
+  "https://top.gg/bot/408785106942164992/vote"
+  "https://top.gg/bot/792827809797898240/vote"
+  "https://top.gg/bot/815289915557675118/vote"
+)
+
+for utl in "${urls[@]}"; do
+    (xdg-open "$utl" > /dev/null 2>&1) &
+  sleep 0.05
+done
+
+sleep 1
+

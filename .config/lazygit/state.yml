@@ -1,8 +1,23 @@
 lastupdatecheck: 0
 recentrepos:
 - /home/cv-rishi/Dotfiles
+- /home/cv-rishi/temp/temptemp
+- /home/cv-rishi/Projects/surf
+- /home/cv-rishi/Projects/TypeShi
+- /home/cv-rishi/Projects/test-zmk-config
+- /home/cv-rishi/Projects/panemouse
 - /home/cv-rishi/.config/nvim
-- /home/cv-rishi/Projects/I-HUB/GoProSensor/script
+- /home/cv-rishi/Dotfiles/.config/nvim
+- /home/cv-rishi/Dropbox/University/Sem5/CS3208/Assignments
+- /home/cv-rishi/University/Sem5/CS3208/Assignments
+- /home/cv-rishi/Projects/OpenReview-helper
+- /home/cv-rishi/Dropbox/University/Hackathons/synchrony_2025/ctrl-c-ctrl-v
+- /home/cv-rishi/University/Hackathons/synchrony_2025/ctrl-c-ctrl-v
+- /home/cv-rishi/Projects/cvit/Biriyani/biryani-of-india
+- /home/cv-rishi/misc/neovim
+- /home/cv-rishi/temp/temp2
+- /home/cv-rishi/Projects/cvit/ImageFood/App
+- /home/cv-rishi/Projects/I-HUB/script
 - /home/cv-rishi/University/Sem3/CS2102/notes
 - /home/cv-rishi/Projects/Literally Me
 - /home/cv-rishi/Projects/tmux-cheatsheet
@@ -11,17 +26,15 @@ recentrepos:
 - /home/cv-rishi/.password-store
 - /home/cv-rishi/texmf
 - /home/cv-rishi/misc/steam-presence
-- /home/cv-rishi/misc/clipse
 - /home/cv-rishi/Projects/tmux-ayu
-- /home/cv-rishi/Dotfiles/.config/nvim
 - /home/cv-rishi/Dropbox/University/Engima/418
 - /home/cv-rishi/University/Engima/418
 - /home/cv-rishi/Projects/ZestyAhhhWebsite
 - /home/cv-rishi/University/Misc/SIH
 startuppopupversion: 5
 customcommandshistory:
-- updates
-- q
 - Q
-hidecommandlog: false
+- q
+- updates
+hidecommandlog: true
 ignorewhitespaceindiffview: false

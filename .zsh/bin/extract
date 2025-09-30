@@ -1,0 +1,195 @@
+#!/bin/bash
+
+# Usage: ./extract.sh -o output.txt -ed "node_modules build mypy_cache" -e "specificfile1 specificfile2" -i ".py .tex .toml .yaml .sty"
+
+# Default values
+output_file="output.txt"
+exclude_dirs="node_modules build mypy_cache __pycache__ .git .hg .svn .tox .eggs .venv .idea .vscode"
+exclude_files=""
+include_types=""
+debug=false
+
+# Parse command-line arguments
+while [[ $# -gt 0 ]]; do
+    key="$1"
+    case $key in
+        -o|--output)
+            output_file="$2"
+            shift 2
+            ;;
+        -ed|--exclude_dir)
+            exclude_dirs="$2"
+            shift 2
+            ;;
+        -e|--exclude)
+            exclude_files="$2"
+            shift 2
+            ;;
+        -i|--include_type)
+            include_types="$2"
+            shift 2
+            ;;
+        -h|--help)
+            echo "Usage: $0 [options]"
+            echo "Options:"
+            echo "  -o,  --output FILE        Specify output file"
+            echo "  -ed, --exclude_dir DIRS   Space-separated list of directories to exclude (supports glob patterns)"
+            echo "  -e,  --exclude FILES      Space-separated list of filenames to exclude (without extensions)"
+            echo "  -i,  --include_type EXTS  Space-separated list of file extensions to include"
+            echo "  -d,  --debug              Enable debug mode to print detailed information"
+            echo "  -h,  --help               Show this help message"
+            exit 0
+            ;;
+        -d|--debug)
+            debug=true
+            shift
+            ;;
+        *)
+            echo "Unknown option: $1"
+            echo "Use --help to see available options"
+            exit 1
+            ;;
+    esac
+done
+
+# Check if fd is installed
+if ! command -v fd &> /dev/null; then
+    echo "Error: fd is not installed. Please install it first."
+    echo "You can install it via:"
+    echo "  - On Debian/Ubuntu: apt install fd-find"
+    echo "  - On macOS: brew install fd"
+    echo "  - On Arch Linux: pacman -S fd"
+    exit 1
+fi
+
+# Print debug information if debug mode is enabled
+if $debug; then
+    echo "=== DEBUG MODE ENABLED ==="
+    echo "Output file: ${output_file:-"stdout (terminal)"}"
+    echo "Excluded directories: ${exclude_dirs:-"none"}"
+    echo "Excluded files: ${exclude_files:-"none"}"
+    echo "Included file types: ${include_types:-"all"}"
+    echo "=========================="
+fi
+
+# Process exclude directories
+exclude_dir_args=""
+if [[ -n "$exclude_dirs" ]]; then
+    for dir in $exclude_dirs; do
+        # fd uses --exclude for directories
+        exclude_dir_args="$exclude_dir_args --exclude '$dir/'"
+    done
+fi
+
+# Process file extensions to include
+include_args=""
+if [[ -n "$include_types" ]]; then
+    for ext in $include_types; do
+        # Remove leading dot if present
+        ext="${ext#.}"
+        include_args="$include_args -e $ext"
+    done
+fi
+
+# Create temporary file for found files
+temp_file=$(mktemp)
+
+# Build the fd command
+fd_command="fd $include_args $exclude_dir_args --type f"
+
+# Print the command if debug mode is enabled
+if $debug; then
+    echo "Executing command: $fd_command"
+fi
+
+# Find files using fd
+eval "$fd_command" > "$temp_file"
+
+# Print found files count if debug mode is enabled
+if $debug; then
+    file_count=$(wc -l < "$temp_file")
+    echo "Found $file_count files before exclusion filtering"
+fi
+
+# Filter out excluded filenames
+if [[ -n "$exclude_files" ]]; then
+    # Convert space-separated string to array
+    read -ra excluded_files_array <<< "$exclude_files"
+
+    if $debug; then
+        echo "Excluded files array: ${excluded_files_array[*]}"
+    fi
+
+    # Create a new filtered file
+    filtered_temp=$(mktemp)
+
+    while IFS= read -r file; do
+        filename=$(basename "$file")
+        skip=false
+
+        for excluded in "${excluded_files_array[@]}"; do
+            # Get filename without extension
+            name_without_ext="${filename%.*}"
+
+            # Check if the filename (without extension) matches exactly
+            if [[ "$name_without_ext" == "$excluded" ]]; then
+                if $debug; then
+                    echo "Excluding file: $file (exact match: \"$excluded\")"
+                fi
+                skip=true
+                break
+            fi
+        done
+
+        if ! $skip; then
+            echo "$file" >> "$filtered_temp"
+        fi
+    done < "$temp_file"
+
+    if $debug; then
+        before_count=$(wc -l < "$temp_file")
+        after_count=$(wc -l < "$filtered_temp")
+        removed=$((before_count - after_count))
+        echo "Removed $removed files in total after filename exclusion filtering"
+    fi
+
+    # Replace the original temp file with filtered results
+    mv "$filtered_temp" "$temp_file"
+
+    if $debug; then
+        final_count=$(wc -l < "$temp_file")
+        echo "Final file count after exclusions: $final_count"
+    fi
+fi
+
+# Determine where to output the results
+if [[ -z "$output_file" ]]; then
+    # Process files and print to stdout
+    while IFS= read -r file; do
+        if $debug; then
+            echo "Processing: $file"
+        fi
+        echo "// $file"
+        cat "$file"
+        echo ""
+    done < "$temp_file"
+else
+    # Process files and write to output file
+    > "$output_file"  # Clear/create the output file
+    while IFS= read -r file; do
+        if $debug; then
+            echo "Processing: $file"
+        fi
+        echo "// $file" >> "$output_file"
+        cat "$file" >> "$output_file"
+        echo "" >> "$output_file"
+    done < "$temp_file"
+    if $debug; then
+        echo "Files collected in $output_file"
+    else
+        echo "Results written to $output_file"
+    fi
+fi
+
+# Clean up
+rm "$temp_file"
