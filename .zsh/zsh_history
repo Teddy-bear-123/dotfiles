@@ -1,0 +1,478 @@
+: 1789372530:0;ls
+: 1789372977:0;cd .zsh
+: 1789372978:0;ls
+: 1789372980:0;nvim zsh_history
+: 1789373019:0;ls
+: 1789373162:0;zoxide
+: 1789373172:0;zoxide query
+: 1789373174:0;zoxide query -i
+: 1789373207:0;cd
+: 1789373207:0;find . -type d -exec zoxide add {} +
+: 1789373218:0;zoxide query -i
+: 1789373226:0;clear
+: 1789373229:0;sudo dnf info fd
+: 1789373273:0;sudo dnf info fd-find
+: 1789373278:0;sudo dnf install fd-find
+: 1789373509:0;source ~/.zshrc
+: 1789373512:0;clear
+: 1789373517:0;cd
+: 1789373518:0;clear
+: 1789373551:0;tailscale status
+: 1789373558:0;ssh teddy-bear@100.66.186.85
+: 1789373634:0;clear
+: 1789373644:0;ls
+: 1789373674:0;nvim .config/tmux
+: 1789373764:0;cd tmp
+: 1789373764:0;ls
+: 1789373770:0;nvim tmux-sessionizer
+: 1789373792:0;zsh tmux-sessionizer
+: 1789373799:0;ls
+: 1789373910:0;go install github.com/joshmedeski/sesh/v2@latest
+: 1789373921:0;sesh
+: 1789373933:0;cd
+: 1789373933:0;ls
+: 1789373934:0;cd go
+: 1789373934:0;ls
+: 1789373935:0;cd bin
+: 1789373935:0;ls
+: 1789373941:0;go install github.com/joshmedeski/sesh/v2@latest
+: 1789373947:0;go update
+: 1789373952:0;go install go
+: 1789373955:0;go install go@latest
+: 1789373959:0;ls
+: 1789373962:0;sudo dnf info go
+: 1789373970:0;clear
+: 1789374003:0;go install golang
+: 1789374009:0;go help
+: 1789374038:0;nvim ~/.config/tmux
+: 1789374072:0;go list golang
+: 1789374108:0;sudo dnf info bison
+: 1789374112:0;sudo dnf install bison
+: 1789374122:0;dbxcli
+: 1789374123:0;cd
+: 1789374125:0;dbxtool
+: 1789374126:0;clear
+: 1789374127:0;bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+: 1789374135:0;nvim .zshrc
+: 1789374140:0;clear
+: 1789374142:0;reload
+: 1789374146:0;batcat
+: 1789374148:0;bat
+: 1789374154:0;bat Desktop
+: 1789374158:0;bat .zshrc
+: 1789374165:0;nvim .zsh/zsh/aliases.zsh
+: 1789374171:0;cd
+: 1789374174:0;clear
+: 1789374176:0;source .zshrc
+: 1789374177:0;ls
+: 1789374180:0;nvim .zsh/zsh/aliases.zsh
+: 1789374187:0;fd "batcat"
+: 1789374190:0;find "batcat"
+: 1789374196:0;grep -rn "batcat"
+: 1789374246:0;clear
+: 1789374247:0;ls
+: 1789374253:0;nvim .zshrc
+: 1789374265:0;gvm
+: 1789374270:0;gvm get
+: 1789374277:0;gvm use latest
+: 1789374282:0;ls
+: 1789374287:0;gvm list
+: 1789374290:0;cd .git
+: 1789374291:0;ls
+: 1789374295:0;cd
+: 1789374299:0;cd .gvm
+: 1789374299:0;ls
+: 1789374301:0;cd .git
+: 1789374302:0;ls
+: 1789374303:0;cd
+: 1789374303:0;ls
+: 1789374306:0;ls .gitconfig
+: 1789374312:0;cd go
+: 1789374312:0;ls
+: 1789374314:0;gvm
+: 1789374318:0;cd ..
+: 1789374319:0;ls
+: 1789374324:0;bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+: 1789374330:0;rm .gvm -rf
+: 1789374331:0;bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+: 1789374340:0;gvm
+: 1789374343:0;gvm list
+: 1789374354:0;gvm listall
+: 1789374365:0;go install github.com/joshmedeski/sesh/v2@latest
+: 1789374380:0;gvm install go1.27
+: 1789374389:0;rm .gvm -rf
+: 1789374403:0;go install golang.org/dl/go1.27.0@latest
+: 1789374411:0;go1.27.0 download
+: 1789374415:0;cd go
+: 1789374415:0;ls
+: 1789374417:0;cd ..
+: 1789374418:0;ls
+: 1789374421:0;nvim .zsh
+: 1789374432:0;nvim .zshrc
+: 1789374440:0;cd go
+: 1789374440:0;ls
+: 1789374442:0;cd bin
+: 1789374448:0;source ~/.zshrc
+: 1789374449:0;ls
+: 1789374452:0;./go1.27.0
+: 1789374456:0;./go1.27.0 download
+: 1789374470:0;clear
+: 1789374472:0;cd
+: 1789374492:0;grep -rn "batcat"
+: 1789374499:0;fd "gvm"
+: 1789374517:0;go install github.com/joshmedeski/sesh/v2@latest
+: 1789374524:0;go use
+: 1789374526:0;go help
+: 1789374547:0;~/go/bin/go1.27.0
+: 1789374555:0;~/go/bin/go1.27.0 install github.com/joshmedeski/sesh/v2@latest
+: 1789374573:0;sesh
+: 1789374576:0;cd go/bin
+: 1789374577:0;ls
+: 1789374579:0;./sesh
+: 1789374581:0;clear
+: 1789374583:0;cd
+: 1789374586:0;sesh
+: 1789374588:0;source ~/.zshrc
+: 1789374594:0;sesh
+: 1789374597:0;nvim .zshrc
+: 1789374602:0;cd .zsh
+: 1789374602:0;ls
+: 1789374606:0;fd "go"
+: 1789374608:0;cd zsh
+: 1789374609:0;ls
+: 1789374610:0;nvim path.zsh
+: 1789374650:0;cd
+: 1789374652:0;sesh
+: 1789374703:0;nvim .config/tmux
+: 1789374746:0;ls
+: 1789374748:0;sesh
+: 1789374757:0;sesh list --icons
+: 1789374759:0;clear
+: 1789374769:0;sesh list -t --icons
+: 1789374773:0;nvim .zshrc
+: 1789374781:0;zoxide help
+: 1789374782:0;zoxide
+: 1789374788:0;zoxide remove
+: 1789374792:0;zoxide remove help
+: 1789374796:0;zoxide remove --help
+: 1789374800:0;zoxide remove *
+: 1789374801:0;ls
+: 1789374803:0;cd .zshrc
+: 1789374804:0;ls
+: 1789374806:0;cd .zsh
+: 1789374806:0;ls
+: 1789374809:0;cd
+: 1789374809:0;ls
+: 1789374817:0;cd .local
+: 1789374818:0;ls
+: 1789374820:0;cd share
+: 1789374821:0;ls
+: 1789374823:0;cd zoxide
+: 1789374824:0;ls
+: 1789374827:0;rm db.zo
+: 1789374828:0;cd
+: 1789374828:0;ls
+: 1789374829:0;clear
+: 1789374510:0;source ~/.zshrc
+: 1789374869:0;sesh list -t --icons
+: 1789374871:0;clear
+: 1789374872:0;ls
+: 1789374874:0;cd tmp_University
+: 1789374875:0;ls
+: 1789374875:0;cd
+: 1789374886:0;clear
+: 1789374896:0;tmux
+: 1789374928:0;ls
+: 1789374936:0;cd .config
+: 1789374936:0;ls
+: 1789374938:0;cd tmux
+: 1789374938:0;ls
+: 1789374941:0;nvim tmux.conf
+: 1789374999:0;clear
+: 1789375038:0;cd
+: 1789375483:0;clear
+: 1789375484:0;ls
+: 1789375533:0;nvim tmux.conf
+: 1789375584:0;ls
+: 1789375586:0;cd plugins
+: 1789375587:0;ls
+: 1789375593:0;cd ..
+: 1789375593:0;ls
+: 1789375595:0;nvim tmux.conf
+: 1789375619:0;cd plugins
+: 1789375619:0;ls
+: 1789375629:0;rm tmux-sessionx/ -rf
+: 1789375630:0;ls
+: 1789375630:0;cd
+: 1789375631:0;ls
+: 1789375632:0;clear
+: 1789375632:0;ls
+: 1789375636:0;nvim .config/alacritty
+: 1789375641:0;cd .config/alacritty
+: 1789375641:0;ls
+: 1789375671:0;alacritty --help
+: 1789375677:0;alacritty migrate
+: 1789375678:0;ls
+: 1789375682:0;nvim alacritty.toml
+: 1789375692:0;alacritty migrate
+: 1789375695:0;ls
+: 1789375696:0;nvim alacritty.toml
+: 1789375737:0;ls
+: 1789375770:0;alacritty migrate
+: 1789375773:0;nvim alacritty.toml
+: 1789375786:0;clear
+: 1789375808:0;nvim theme.toml
+: 1789375819:0;ls
+: 1789375829:0;rm dank-theme.toml
+: 1789375830:0;ls
+: 1789375831:0;nvim alacritty.toml
+: 1789375945:0;cd Downloads
+: 1789375945:0;ls
+: 1789375949:0;nautilus .
+: 1789375978:0;cd
+: 1789375980:0;cd .fontconfig
+: 1789375980:0;ls
+: 1789375981:0;cd
+: 1789375984:0;cd .local/fo
+: 1789375988:0;cd .local/share
+: 1789375989:0;ls
+: 1789375990:0;cd fonts
+: 1789375990:0;ls
+: 1789375998:0;cd ~/Downloads
+: 1789375999:0;ls
+: 1789376046:0;rm UbuntuMono\ \(2\) BigBlueTerminal\ \(2\) -rf
+: 1789376046:0;ls
+: 1789376049:0;cd BigBlueTerminal
+: 1789376050:0;ls
+: 1789376059:0;mv *.ttf ~/.local/share/fonts
+: 1789376060:0;ls
+: 1789376061:0;cd ..
+: 1789376061:0;ls
+: 1789376065:0;cd no
+: 1789376066:0;cd Noto
+: 1789376066:0;ls
+: 1789376070:0;mv *.ttf ~/.local/share/fonts
+: 1789376071:0;ls
+: 1789376073:0;cd ..
+: 1789376073:0;ls
+: 1789376075:0;cd Iosevka
+: 1789376076:0;ls
+: 1789376077:0;mv *.ttf ~/.local/share/fonts
+: 1789376078:0;ls
+: 1789376080:0;cd ..
+: 1789376081:0;ls
+: 1789376082:0;cd UbuntuMono
+: 1789376083:0;ls
+: 1789376084:0;cp
+: 1789376086:0;mv *.ttf ~/.local/share/fonts
+: 1789376087:0;cd ..
+: 1789376087:0;ls
+: 1789376089:0;cd JetBrainsMono
+: 1789376089:0;ls
+: 1789376092:0;mv *.ttf ~/.local/share/fonts
+: 1789376092:0;ls
+: 1789376094:0;cd ..
+: 1789376094:0;l
+: 1789376096:0;ls
+: 1789376099:0;cd NerdFontsSymbolsOnly
+: 1789376100:0;ls
+: 1789376104:0;mv *.ttf ~/.local/share/fonts
+: 1789376104:0;ls
+: 1789376106:0;cd ..
+: 1789376106:0;ls
+: 1789376111:0;cd Hack
+: 1789376111:0;ls
+: 1789376112:0;mv *.ttf ~/.local/share/fonts
+: 1789376113:0;ls
+: 1789376114:0;cd ..
+: 1789376114:0;ls
+: 1789376115:0;clear
+: 1789376115:0;ls
+: 1789376120:0;rm *.zip
+: 1789376121:0;ls
+: 1789376130:0;rm BigBlueTerminal Noto Iosevka UbuntuMono JetBrainsMono NerdFontsSymbolsOnly -rf
+: 1789376131:0;ls
+: 1789376133:0;rm Hack -rf
+: 1789376135:0;rm zshrc
+: 1789376135:0;ls
+: 1789376140:0;rm *.deb *.rpm
+: 1789376141:0;ls
+: 1789376150:0;rm discord-1.0.157.pkg.tar.zst geckodriver-v0.37.1-linux-aarch64.tar.gz
+: 1789376151:0;ls
+: 1789376153:0;rm config.kdl
+: 1789376153:0;ls
+: 1789376157:0;clear
+: 1789376162:0;ls
+: 1789376166:0;clear
+: 1789376171:0;tmux
+: 1789376185:0;tmux attach
+: 1789376260:0;sudo dnf info tree-sitter
+: 1789376268:0;nvim
+: 1789376329:0;cd ./tmux
+: 1789376329:0;ls
+: 1789376331:0;cd ../tmux
+: 1789376331:0;ls
+: 1789376333:0;nvim tmux.conf
+: 1789376400:0;nvim
+: 1789376420:0;nvim tmux.conf
+: 1789376493:0;ls
+: 1789376495:0;clear
+: 1789376495:0;cd
+: 1789376507:0;ls
+: 1789376508:0;clear
+: 1789376521:0;tmux
+: 1789376528:0;ls
+: 1789376547:0;cd ../tmux
+: 1789376552:0;cd .config/tmux
+: 1789376552:0;ls
+: 1789376554:0;nvim tmux.conf
+: 1789376607:0;tmux
+: 1789376615:0;nvim
+: 1789376630:0;sudo dnf info ripgrep
+: 1789376636:0;sudo dnf install ripgrep
+: 1789376698:0;npm install -g neovim
+: 1789376803:0;sudo dnf info tree-sitter-cli
+: 1789376810:0;sudo dnf install tree-sitter-cli
+: 1789376847:0;clear
+: 1789376848:0;ls
+: 1789376862:0;sudo dnf update
+: 1789377097:0;flatpak update
+: 1789377123:0;reboot
+: 1789377170:0;ls
+: 1789377171:0;clear
+: 1789377231:0;dmsetup
+: 1789377235:0;dms
+: 1789377242:0;dms clipboard
+: 1789377247:0;clear
+: 1789377249:0;tmux
+: 1789377254:0;cd .config
+: 1789377255:0;ls
+: 1789377266:0;clear
+: 1789377270:0;ls | wl-copy
+: 1789377274:0;ls
+: 1789377285:0;cd ..
+: 1789377285:0;ls
+: 1789377289:0;mkdir Dotfiles
+: 1789377401:0;git clone https://github.com/teddy-bear-123/dotfiles.git ~/Dotfiles
+: 1789377424:0;cd ~/Dotfiles
+: 1789377426:0;ls
+: 1789377436:0;man git switch
+: 1789377449:0;git switch -c asahi-fedora-niri
+: 1789377451:0;ls
+: 1789377465:0;git push -u origin asahi-fedora-niri
+: 1789377520:0;git remote set-url origin https://github.com/Teddy-bear-123/dotfiles.git
+: 1789377564:0;git checkout --orphan asahi-fedora-niri-clean
+: 1789377564:0;ls
+: 1789377567:0;git rm -rf --cached .
+: 1789377568:0;ls
+: 1789377571:0;git clean -fdx
+: 1789377572:0;ls
+: 1789377579:0;touch README.md .gitignore .stow-local-ignore
+: 1789377590:0;nvim README.md
+: 1789377628:0;nvim .stow-local-ignore
+: 1789377663:0;ls
+: 1789377669:0;cd ../.config
+: 1789377669:0;ls
+: 1789377767:0;mkdir .config
+: 1789377773:0;cp -r ~/.config/niri ~/Dotfiles/.config/\
+cp -r ~/.config/DankMaterialShell ~/Dotfiles/.config/\
+cp -r ~/.config/alacritty ~/Dotfiles/.config/\
+cp -r ~/.config/bob ~/Dotfiles/.config/
+: 1789377774:0;ls
+: 1789377775:0;cd .config
+: 1789377775:0;ls
+: 1789377795:0;cd ..
+: 1789377803:0;ls
+: 1789377824:0;git submodule add git@github.com:Teddy-bear-123/nvim.git .config/nvim
+: 1789377827:0;ls
+: 1789377850:0;rm -rf ~/.config/niri ~/.config/DankMaterialShell ~/.config/alacritty ~/.config/bob
+: 1789377856:0;stow -v .config
+: 1789377859:0;ls
+: 1789377861:0;ll
+: 1789377872:0;cd niri
+: 1789377873:0;ls
+: 1789377874:0;ll
+: 1789377875:0;cd ..
+: 1789377875:0;ls
+: 1789377893:0;cd .config
+: 1789377893:0;ls
+: 1789377895:0;cd nvim
+: 1789377896:0;ls
+: 1789377899:0;git remote -v
+: 1789377902:0;cd ../
+: 1789377903:0;ls
+: 1789377904:0;cd ..
+: 1789377904:0;ls
+: 1789377911:0;git commit -m "New machine"
+: 1789377912:0;git push
+: 1789377921:0;cd .config
+: 1789377921:0;ls
+: 1789377923:0;nvim bob
+: 1789377926:0;cd ..
+: 1789377927:0;ls
+: 1789377930:0;git push
+: 1789377994:0;git branch -m asahi-fedora-niri-clean asahi-fedora-niri
+: 1789378003:0;git branch -m asahi-fedora-niri asahi-fedora-niri-old
+: 1789378008:0;git branch -m asahi-fedora-niri-clean asahi-fedora-niri
+: 1789378011:0;git branch -a
+: 1789378013:0;ls
+: 1789378015:0;git status
+: 1789378018:0;git add .
+: 1789378019:0;ls
+: 1789378020:0;git status
+: 1789378024:0;git log
+: 1789378033:0;ls
+: 1789378034:0;clear
+: 1789378040:0;git push origin asahi-fedora-niri
+: 1789378046:0;clear
+: 1789378047:0;git pull
+: 1789378057:0;git remote -a
+: 1789378059:0;git branch -a
+: 1789378068:0;git pull origin asahi-fedora-niri
+: 1789378073:0;git config pull.rebase true
+: 1789378076:0;git pull origin asahi-fedora-niri
+: 1789378078:0;ls
+: 1789378082:0;nvim
+: 1789378109:0;git status
+: 1789378113:0;git pull origin asahi-fedora-niri
+: 1789378130:0;ls
+: 1789378132:0;cd .config
+: 1789378132:0;ls
+: 1789378134:0;cd ..
+: 1789378134:0;ls
+: 1789378135:0;clear
+: 1789378137:0;git push origin asahi-fedora-niri
+: 1789378152:0;git branch -a
+: 1789378163:0;git push origin asahi-fedora-niri --force
+: 1789378184:0;ls
+: 1789378186:0;nvim .stow-local-ignore
+: 1789378201:0;cd
+: 1789378206:0;nvim .zshrc
+: 1789378229:0;cp ~/.zshrc .\
+cp -r ~/.zsh .
+: 1789378364:0;git switch lazy
+: 1789378386:0;stow --adopt -v .
+: 1789378391:0;ls
+: 1789378410:0;nvim
+: 1789378414:0;pwd
+: 1789378419:0;cd .config
+: 1789378419:0;ls
+: 1789378420:0;pwd
+: 1789378422:0;cd niri
+: 1789378422:0;ls
+: 1789378423:0;pwd
+: 1789378426:0;ll
+: 1789378264:0;cd .confg
+: 1789378269:0;cd nvim
+: 1789378272:0;cd ..
+: 1789378274:0;clear
+: 1789378283:0;stow -v .
+: 1789378288:0;stow -v . | wl-copy
+: 1789378436:0;ls
+: 1789378439:0;clear
+: 1789378442:0;stow --adopt -v .
+: 1789378444:0;clear
+: 1789378444:0;ls
+: 1789378448:0;nvim
+: 1789378476:0;git status
+: 1789378479:0;git add .

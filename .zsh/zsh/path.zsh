@@ -1,0 +1,25 @@
+export MANPATH="${HOME}/.local/share/man:${MANPATH}"
+
+export PATH="${ZSH}/bin:${PATH}"
+# export PATH="${PATH}:${HOME}/.spicetify"
+# export PATH="${PATH}:/usr/local/lib/python3.11/dist-packages"
+export PATH="${HOME}/.local/bin:${PATH}"
+export PATH="${PATH}:/usr/local/go/bin"
+export PATH="${PATH}:/usr/local/go/bin"
+export PATH="${HOME}/go/bin:${PATH}"
+# export PATH="${PATH}:${HOME}/.local/julia-1.8.1/bin"
+# export PATH="/usr/local/cuda/bin:${PATH}"
+export PATH="${HOME}/.local/share/bob/nvim-bin:${PATH}"
+# [[ -d "${PYENV_ROOT}/bin" ]] && export PATH="${PYENV_ROOT}/bin:${PATH}"
+# export PATH="${PATH}:${ANDROID_HOME}/emulator"
+# export PATH="${PATH}:${ANDROID_HOME}/platform-tools"
+# export PATH="${PATH}:${ANDROID_NDK_HOME}"
+# export PATH="${JAVA_HOME}/bin:${PATH}"
+# export PATH="${HOME}/.dotnet:${PATH}"
+export PATH="${HOME}/.bun/bin:${PATH}"
+
+FNM_PATH="/home/teddybear/.local/share/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="$FNM_PATH:$PATH"
+  eval "$(fnm env --shell zsh)"
+fi
